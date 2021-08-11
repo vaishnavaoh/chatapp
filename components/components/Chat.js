@@ -15,7 +15,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import NetInfo from '@react-native-community/netinfo';
 
 //Customes chat features component
-import CustomActions from './components/CustomActions';
+import CustomActions from './CustomActions';
 
 //MapView component
 import MapView from 'react-native-maps';
@@ -25,12 +25,12 @@ export default class Chat extends React.Component {
   constructor(props) {
     super(props);
     const firebaseConfig = {
-      apiKey: "AIzaSyBzgzly2-WlVIUxnd9SVwRPx7IwIrXJC28",
-      authDomain: "task-5-cf.firebaseapp.com",
-      projectId: "task-5-cf",
-      storageBucket: "task-5-cf.appspot.com",
-      messagingSenderId: "1003503703326",
-      appId: "1:1003503703326:web:a5dcf6718276f576f3e50f",
+      apiKey: "AIzaSyAFtUXDT-rVbMXw0lASbyBGlwkAexTqMXI",
+      authDomain: "chat-app-6a20b.firebaseapp.com",
+      projectId: "chat-app-6a20b",
+      storageBucket: "chat-app-6a20b.appspot.com",
+      messagingSenderId: "457065219789",
+      appId: "1:457065219789:web:6be5513dedcb311fab0b84"
     };
     if (!firebase.apps.length) {
       firebase.initializeApp(firebaseConfig);
