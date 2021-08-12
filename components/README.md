@@ -41,3 +41,5 @@ After starting the app, use your mobile to scan the QR code with the Expo app (A
 
 ### Running on Simulator/Emulator
 After starting the app, type 'a' in your CLI to run the app on an Android emulator, and 'i' to run it on an iOS simulator. Alternatively, click the appropriate option in the Expo Developer Tools in the browser.
+
+### Screenshots
